@@ -1,0 +1,27 @@
+// const { inc, dec, rnd } = bindActionCreators(actions, dispatch)
+
+// const store = createStore(reducer)
+// const { dispatch } = store
+// const { inc, dec, rnd } = bindActionCreators(actions, dispatch)
+// const update = () => (document.getElementById('counter').innerHTML = store.getState())
+// store.subscribe(update)
+
+// document.getElementById('inc').addEventListener('click', inc)
+// document.getElementById('dec').addEventListener('click', dec)
+// document.getElementById('rnd').addEventListener('click', () => {
+// 	const payload = Math.floor(Math.random() * 9)
+// 	rnd(payload)
+// })
+// const bindActionCreator = (creator, dispatch) => (...args) => dispatch(creator(...args))
+// const { incDispatch, decDispatch, rndDispatch } = bindActionCreators(
+// 	{ incDispatch: inc, decDispatch: dec, rndDispatch: rnd },
+// 	dispatch
+// )
+// const mapDispatchToProps = dispatch => {
+//   const { inc, dec, rnd } = bindActionCreators(actions, dispatch)
+//   return {
+//     inc,
+//     dec,
+//     rnd
+//   }
+// }
